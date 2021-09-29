@@ -1,70 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Kawo Legal Website </title>
+	<meta charset="utf-8">
+	<title>Kawo Legal</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="css/kawo.css">
+	<script src="https://kit.fontawesome.com/85ef4e2879.js" crossorigin="anonymous"></script>
 </head>
-<body>
-	        <div class="background">
-        <div class="background-cover">
-            <div class="logo">
-                <a href="#"><img src="kawo-legal-logo.png" alt=""></a>
-            </div>
-            <div class="background-img">
-                <img src="bg-image.jpg" alt="background">
-            </div>
+<body class="d-flex flex-column min-vh-100">
+	<img src="images/bg-image-new.jpg">
 
-            <div class="intro">
-                <h1> KAWOLEGAL </h1>
-                <p>
-                	A collaborative ecosystem for problem solvers and support for Startups
-                </p>
-                <div class="btn">
-                <a href="#">
-                	<button class="btn">
-                	Register Now!
-                	</button>
-                </a>
-            </div>
-            </div>
+	<nav class="navbar navbar-expand-lg bg-none navb"> 
+  <a class="navbar-brand" href="#">
+  	<img src="images/kawo-legal-logo.png">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-        </div>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" style="border: 2px solid #c35b48; padding: 5px;">Home</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="startups.html">Startups</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="register.html">Register</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="login.html">Login</a>
+      </li>
+  </div>
+</nav>
 
-        <nav class="nav-content nav-container">
-                    <ul>
-                        <li><a href="index.html" style="border: 2px solid red; padding: 5px;">Home</a></li>
-                        <li><a href="startup.html">All Startups</a></li>
-                        <li><a href="register.html">Register</a></li>
-                        <li><a href="login.html">Login</a></li>
-                    </ul>
-                    </li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-            <div class="burger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-        </nav>
-    </div>
 
-    </div>
-    <footer>
-        <div class="footer-container">
-            <p class="text-center"> &copy; 2019 KawoLegal. All right Reserved </p>
+<div class="container">
+	<div class="row">
+		<div class="col-md-3">
+			
+		</div>
+		<div class="col-md-6 intro" align="center">
+			<h1 style="font-size: 60px;">KAWOLEGAL</h1>
+			<h3>
+				A colaborative ecosystem for problem solvers & support for startups
+			</h3>
+			<br>
+			<button type="button" class="btn btn-lg btn-primary" disabled><a href='register.html' alt='Broken Link' style="color:white;">Register Now!</a></button>
+		</div>
+		<div class="col-md-3">
+		</div>
+	</div>
+</div>
 
-            <ul class="social-media">
-                <li><a href="#" class="fa fa-facebook"></a></li>
-                <li><a href="#" class="fa fa-twitter"></a></li>
-                <li><a href="#" class="fa fa-linkedin"></a></li>
-                <li><a href="#" class="fa fa-instagram"></a></li>
-            </ul>
-        </div>
-    </footer>
 
-<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="bootstrap.min.js"></script>
+<footer class="footcss mt-auto">
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<p style="color: white; text-align: left;">Ⓒ 2021 Kawo Legal, All Rights Reserved</p>
+			</div>
+			<div class="col-md-4"></div>
+			<div class="col-md-4">
+				<ul class="ulstyl">
+					<li>
+						<i class="fab fa-facebook-f"></i> 
+					</li>
+					<li>
+						<i class="fab fa-twitter"></i>
+					</li>
+					<li>
+						<i class="fab fa-linkedin-in"></i>
+					</li>
+					<li>
+						<i class="fab fa-instagram"></i>
+					</li>
+				</ul>
+			</div>	
+		</div>
+	</div>
+</footer>
+
+<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
